@@ -7,6 +7,9 @@
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 .text-right{
     text-align: right;
 }
@@ -26,18 +29,20 @@
     text-decoration: none;
 }
 .links {
+    font-weight: bold;
     text-decoration: none;
     color: var(--button-text-color);
-    padding: 0.5rem 1rem;   
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
 }
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: royalblue;
     border-radius: 2rem;
     color: white   
 }
 
 .link-secondary {
-    color: var(--primary-color);
+    color: white;
+    background-color: royalblue;
     border-radius: 2rem;
-    border: 1px solid var(--primary-color);
 }
