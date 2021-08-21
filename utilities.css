@@ -1,0 +1,43 @@
+.bold{
+    font-weight: bold;
+}
+.list{
+    list-style-type: none;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.current-page{
+    border-bottom: 3px solid #fff;
+}
+.white{
+    color: #fff;
+}
+.inline{
+    display: inline;
+}
+/* Link */
+.link {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.links {
+    text-decoration: none;
+    color: var(--button-text-color);
+    padding: 0.5rem 1rem;   
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: white   
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+}
